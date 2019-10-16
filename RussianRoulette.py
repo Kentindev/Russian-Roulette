@@ -74,7 +74,7 @@ def RussianRoulettePlay():
                         break
                     else:
                         empty.play()
-                        print("I survive...Your turn :)")
+                        print("I survived...Your turn :)")
                         time.sleep(1)
                         print("AHAHHAHAH")
                         time.sleep(2)
@@ -94,7 +94,7 @@ def RussianRoulettePlay():
             break
         else:
             empty.play()
-            print("you survive...my turn")
+            print("you survived...my turn")
             if Placement == 5:
                 print("Goodbye...")
         time.sleep(3)
@@ -107,7 +107,7 @@ def RussianRoulettePlay():
             break
         else:
             empty.play()
-            print("I survive...Your turn")
+            print("I survived...Your turn")
         while Playing:
             print("continue? y/n")
             rep = input("")
